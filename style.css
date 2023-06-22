@@ -1,0 +1,35 @@
+h1 {
+    /* Фон блока */
+    background: red
+}
+.paragraph-1 {
+    background: blue;
+    /* Размер текста */
+    font-size: 32pt;
+    /* Цвет текста */
+    color: green;
+}
+.paragraph-2 {
+    /* Толщина линии solid - пунктирная*/
+    border: 10px solid yellow;
+    /* Скругление */
+    border-radius: 5x;
+    /* Размер блока */
+    font-size: 24pt;
+    /* Отступ вниз на 600 пикселей */
+    margin-bottom: 600px;
+    margin-top: 600px;
+    /* Отступ внутри нашего блока с левой стороны */
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.paragraph-3 {
+    /* Форматирование жирный шрифт*/
+    font-weight: bold;
+    font-size: 24pt;
+     /* Меняем шрифт */
+    font-family: Courier New;
+}
