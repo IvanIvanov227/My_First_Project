@@ -13,7 +13,7 @@ h1 {
     /* Толщина линии solid - пунктирная*/
     border: 10px solid yellow;
     /* Скругление */
-    border-radius: 5x;
+    border-radius: 5px;
     /* Размер блока */
     font-size: 24pt;
     /* Отступ вниз на 600 пикселей */
@@ -36,7 +36,7 @@ h1 {
 .paragraph-4 {
     font-size: 24pt;
     border: 3px solid green;
-    border-radius: 100x;
+    border-radius: 15px;
     font-style: italic;
     text-align: center;
     padding-left: 20px;
