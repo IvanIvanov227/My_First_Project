@@ -33,3 +33,15 @@ h1 {
      /* Меняем шрифт */
     font-family: Courier New;
 }
+.paragraph-4 {
+    font-size: 24pt;
+    border: 3px solid green;
+    border-radius: 100x;
+    font-style: italic;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-shadow: 2px 6px 4px green;
+}
