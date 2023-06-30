@@ -12,12 +12,39 @@
           resize: none;
    }
 
+
+
+
     </style>
 </head>
 <body>
 <!--target - это создание новой страницы, при нажатии на ссылку-->
 <a href="html2_lesson3.html" target="_blank"> Ссылка на вторую страницу </a>
 <form action="">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Главная</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Дом</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Особенности</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Price - лист</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
     <!-- label связывает поле ввода с текстом-->
     <!-- br - под другом всё -->
     <label class="lead" for="field1">Простое текстовое поле</label>
